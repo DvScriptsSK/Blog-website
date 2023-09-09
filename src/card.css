@@ -1,0 +1,27 @@
+.card-main {
+    display: flex;
+    flex-direction: column;
+    width: 13rem;
+    height: 15rem;
+    background-color: #d8cdcd;
+    border-radius: 20px;
+    text-align: center;
+    margin: 1rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+.card-main:hover {
+    background-color: #d8cdcd;
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    cursor: pointer;
+}
+.card-main .card-header {
+    position: relative;
+    background-color: rgb(175, 135, 135);  
+    border-radius: 20px;
+    width: 100%;
+    height: 2.5rem;
+    overflow: hidden;
+    text-align: center;
+}

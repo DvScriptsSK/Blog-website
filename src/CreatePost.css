@@ -1,0 +1,40 @@
+.createpost-base {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    width: 25rem;
+    height: 10rem;
+    background-color: antiquewhite;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden    ;
+}
+.createpost-base .createpost-button{
+    position: relative;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    top:2.2rem;
+    height: 2.5rem;
+    background-color: rgb(184, 156, 120);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.createpost-base input{
+    position: relative;
+    border: none;
+    border-radius: 5px;
+    width: 90%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+.createpost-base input::placeholder {
+    text-align: center;
+}
+.createpost-base input:focus {
+    text-align: center;
+    border: none;
+}

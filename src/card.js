@@ -1,6 +1,8 @@
-import React from 'react'
+import {React} from 'react'
 import './card.css'
-const card = (props) => {
+
+
+function CardShower(props) {
   return (
     <div className='card-main'>
         <div className='card-header'>
@@ -13,4 +15,4 @@ const card = (props) => {
   )
 }
 
-export default card
+export default CardShower;
