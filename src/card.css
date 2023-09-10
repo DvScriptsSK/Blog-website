@@ -25,3 +25,7 @@
     overflow: hidden;
     text-align: center;
 }
+.card-main .card-header .card-header-text {
+    position: relative;
+    top: -1rem;
+}

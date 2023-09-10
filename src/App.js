@@ -3,6 +3,10 @@ import React, { useState } from 'react';
 import Posts from './posts.json';
 import CardShower from './card';
 import CreatePost from './CreatePost';
+import SignIn from './components/auth/SignIn';
+import SignUP from './components/auth/SignUp';
+import AuthDetails from './components/AuthDetails';
+
 
 function App() {
   const [Creating, SetCreating] = useState(false);
@@ -33,6 +37,9 @@ function App() {
       </div>
       <button onClick={() => SetCreating(!Creating)}>Create Post</button>
       <CreatePostRender />
+      <SignIn />
+      <SignUP />
+      <AuthDetails />
     </div>
   );
 }
